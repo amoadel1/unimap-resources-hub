@@ -4,7 +4,7 @@ export const owner = {
   name: "ADEL HUSHAM MOHAMEDAIN",
   arabicName: "عادل هشام محمدين",
   role: "Founder & Maintainer",
-  email: "adelalj3le@gmail.com",
+  email: "adelaljaale@gmail.com",
 };
 
 export const platforms: Platform[] = [
@@ -16,15 +16,10 @@ export const platforms: Platform[] = [
   "Other",
 ];
 
-export const officialAcademicGuide = {
-  title: "UniMAP Academic Guide",
-  url: "https://sites.google.com/unimap.edu.my/academicunimap/home",
-  description:
-    "Official UniMAP academic information including academic guide, regulations, academic calendar, timetable, forms, and academic resources.",
-};
+
 
 export const welcomeArabic = [
-  "مرحبًا بكم في منصة مصادر طلاب جامعة ماليزيا بيرليس (UniMAP).",
+  "مرحباً بكم في منصة مصادر طلاب جامعة ماليزيا بيرليس (UniMAP).",
   "تم إنشاء هذه المنصة وإدارتها بواسطة الطالب عادل هشام محمدين بهدف جمع وتنظيم المصادر الدراسية في مكان واحد لتسهيل الوصول إليها والاستفادة منها من قبل جميع الطلاب.",
   "جميع الدرايفات والروابط والملفات المعروضة هنا تعود إلى أصحابها الذين قاموا بإنشائها أو مشاركتها، ولا ندّعي ملكية أي من هذه المواد. يقتصر دور المنصة على جمع وتنظيم المصادر المتاحة لخدمة المجتمع الطلابي.",
   "نتقدم بالشكر والتقدير لكل طالب ساهم في إنشاء أو مشاركة هذه المصادر، ونسأل الله أن يجزيهم خير الجزاء وأن يجعل علمهم وعملهم نافعًا للجميع.",

@@ -5,7 +5,6 @@ import { SearchHub } from "@/components/search-hub";
 import { SiteHeader } from "@/components/site-header";
 import { ResourceCard } from "@/components/resource-card";
 import {
-  officialAcademicGuide,
   owner,
   welcomeArabic,
   welcomeEnglish,
@@ -187,28 +186,11 @@ export default async function HomePage() {
             </p>
           </div>
 
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {officialResources.length > 0 ? (
-              officialResources.map((resource) => (
-                <ResourceCard key={resource.id} resource={resource} />
-              ))
-            ) : (
-              <a
-                className="card card-hover block p-6"
-                href={officialAcademicGuide.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <h3 className="text-xl font-bold text-slate-950 dark:text-white">
-                  {officialAcademicGuide.title}
-                </h3>
-
-                <p className="mt-3 leading-7 text-slate-600 dark:text-slate-400">
-                  {officialAcademicGuide.description}
-                </p>
-              </a>
-            )}
-          </div>
+          <div <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+  {officialResources.map((resource) => (
+    <ResourceCard key={resource.id} resource={resource} />
+  ))}
+</div>
         </section>
       </main>
 

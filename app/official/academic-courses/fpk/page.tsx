@@ -1,4 +1,4 @@
-export default function FPKPage() {
+export default function FPKCoursesPage() {
   return (
     <section className="container-page py-16">
       <h1 className="section-title mb-8">
@@ -6,7 +6,7 @@ export default function FPKPage() {
       </h1>
 
       <a
-        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses#h.i1zkt86hv8pt"
+        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses/coursesfsgm"
         target="_blank"
         rel="noreferrer"
         className="btn-primary"

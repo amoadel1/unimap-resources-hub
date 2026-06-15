@@ -1,4 +1,4 @@
-export default function FKCPage() {
+export default function FKCCoursesPage() {
   return (
     <section className="container-page py-16">
       <h1 className="section-title mb-8">
@@ -6,7 +6,7 @@ export default function FKCPage() {
       </h1>
 
       <a
-        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses#h.eppda8xvtupa"
+        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses/coursesfic/fic-courses-sa-20252026"
         target="_blank"
         rel="noreferrer"
         className="btn-primary"

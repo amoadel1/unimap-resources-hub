@@ -6,7 +6,7 @@ export default function FKTECoursesPage() {
       </h1>
 
       <a
-        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses#h.an2289hcw6p0"
+        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses/coursesftke"
         target="_blank"
         rel="noreferrer"
         className="btn-primary"

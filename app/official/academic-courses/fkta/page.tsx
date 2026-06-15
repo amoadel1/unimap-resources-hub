@@ -5,12 +5,8 @@ export default function FKTACoursesPage() {
         Faculty of Civil Engineering & Technology (FKTA)
       </h1>
 
-      <p className="mb-6">
-        Civil Engineering course information.
-      </p>
-
       <a
-        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses#h.yiyn30vjoi9v"
+        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses/coursesftka"
         target="_blank"
         rel="noreferrer"
         className="btn-primary"

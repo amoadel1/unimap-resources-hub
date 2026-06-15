@@ -1,4 +1,4 @@
-export default function FKTENPage() {
+export default function FKTENCoursesPage() {
   return (
     <section className="container-page py-16">
       <h1 className="section-title mb-8">
@@ -6,7 +6,7 @@ export default function FKTENPage() {
       </h1>
 
       <a
-        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses#h.r19mhfmdmzqo"
+        href="https://sites.google.com/unimap.edu.my/academicunimap/academic-courses/coursesftken"
         target="_blank"
         rel="noreferrer"
         className="btn-primary"

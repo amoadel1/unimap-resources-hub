@@ -94,7 +94,7 @@ export default async function HomePage() {
 </p>
 
 <h2 className="mt-4 text-2xl font-black leading-tight lg:text-4xl">
-  ADEL HUSHAM MOHAMEDAIN
+  ADEL HUSHAM MOHAMEDAIN YOUSUF
 </h2>
 
 <p className="mt-2 text-lg font-semibold text-teal-300">
@@ -177,13 +177,13 @@ export default async function HomePage() {
             </p>
 
             <h2 className="section-title mt-3">
-              Official academic links
-            </h2>
+  Official UniMAP Resources
+</h2>
 
-            <p className="mt-4 max-w-3xl text-slate-600 dark:text-slate-400">
-              The official academic guide is included in the database and can be
-              managed from the admin dashboard with other official links.
-            </p>
+<p className="mt-4 max-w-3xl text-slate-600 dark:text-slate-400">
+  Official academic guides, calendars, course structures, class timetables,
+  academic forms, and university resources provided by UniMAP.
+</p>
           </div>
 
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

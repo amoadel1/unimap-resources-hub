@@ -9,7 +9,7 @@
 ![Status](https://img.shields.io/badge/Status-Production-success)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-A modern, production-ready academic resource management platform built for Universiti Malaysia Perlis (UniMAP).
+A modern, student-driven academic resource platform designed to help UniMAP students discover, share, and access educational resources.
 
 > **By Students, For Students**
 

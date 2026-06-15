@@ -2,11 +2,11 @@ export default function ClassTimetablePage() {
   const timetables = [
     {
       name: "Bachelor Degree Programmes",
-      url: "https://sites.google.com/unimap.edu.my/academicunimap/class-timetable#h.8g9x2dbv72qb",
+      url: "/official/class-timetable/bachelor",
     },
     {
       name: "Diploma Programmes",
-      url: "https://sites.google.com/unimap.edu.my/academicunimap/class-timetable#h.o40f0qm8u0cu",
+      url: "/official/class-timetable/diploma",
     },
   ];
 
@@ -21,8 +21,6 @@ export default function ClassTimetablePage() {
           <a
             key={item.name}
             href={item.url}
-            target="_blank"
-            rel="noreferrer"
             className="card p-5 hover:shadow-lg"
           >
             <h3 className="font-bold text-lg">

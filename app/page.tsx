@@ -43,10 +43,16 @@ export default async function HomePage() {
   UniMAP Resources Hub
 </h1>
 
-<p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+<p  className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
   Access academic drives, notes, past exams, assignments, lab materials,
   and official resources shared by UniMAP students across different
   engineering and technology programmes.
+</p>
+
+<p className="mt-4 max-w-2xl rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm font-medium text-amber-800 dark:border-amber-500/20 dark:bg-amber-500/10 dark:text-amber-200">
+  🔑 Some resources may require UniMAP authentication. If any Google Drive,
+  website, or university resource link does not open, please sign in with
+  your official UniMAP email account and try again.
 </p>
 
 <div className="mt-6 flex flex-wrap gap-3">

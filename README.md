@@ -3,6 +3,7 @@
 A modern, production-ready academic resource management platform built for Universiti Malaysia Perlis (UniMAP).
 
 The platform enables students and administrators to organize, discover, submit, review, and manage academic resources in a centralized and secure environment.
+
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)

@@ -123,6 +123,7 @@ export function SearchHub({
       </div>
 
       {/* RESOURCES */}
+      {query.trim() && (
       <div className="mt-16">
         <div className="mb-5 flex items-end justify-between gap-4">
           <div>
@@ -157,6 +158,7 @@ export function SearchHub({
           </div>
         )}
       </div>
+      )}
     </section>
   );
 }

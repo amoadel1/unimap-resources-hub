@@ -35,12 +35,20 @@ export const resourceSchema = z.object({
 });
 
 export const submissionSchema = z.object({
+  resource_type: z.enum(["student", "official"]).default("student"),
+
   full_name: z.string().trim().min(2).max(140),
-  programme_id: z.string().uuid(),
-  intake: z.string().trim().min(1).max(40),
+
+  programme_id: z.string().optional(),
+
+  intake: z.string().optional(),
+
   platform: z.enum(platforms as [string, ...string[]]),
+
   resource_url: urlSchema,
+
   notes: z.string().trim().max(1000).optional().or(z.literal("")),
+
   website: z.string().max(0).optional(),
 });
 

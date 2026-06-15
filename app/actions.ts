@@ -18,14 +18,22 @@ export async function submitResourceAction(
   formData: FormData,
 ): Promise<ActionState> {
   const parsed = submissionSchema.safeParse({
-    full_name: getFormString(formData, "full_name"),
-    programme_id: getFormString(formData, "programme_id"),
-    intake: getFormString(formData, "intake"),
-    platform: getFormString(formData, "platform"),
-    resource_url: getFormString(formData, "resource_url"),
-    notes: getFormString(formData, "notes"),
-    website: getFormString(formData, "website"),
-  });
+  resource_type: getFormString(formData, "resource_type"),
+
+  full_name: getFormString(formData, "full_name"),
+
+  programme_id: getFormString(formData, "programme_id"),
+
+  intake: getFormString(formData, "intake"),
+
+  platform: getFormString(formData, "platform"),
+
+  resource_url: getFormString(formData, "resource_url"),
+
+  notes: getFormString(formData, "notes"),
+
+  website: getFormString(formData, "website"),
+});
 
   if (!parsed.success) {
     return {
